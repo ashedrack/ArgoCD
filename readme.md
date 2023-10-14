@@ -4,6 +4,7 @@
 https://youtu.be/JLrR9RV9AFA
 
 
+
 # Installing latest/stable version of ArgoCD
 ```
 kubectl create namespace argocd
@@ -49,8 +50,3 @@ argocd app rollback <appname> #Rollback to a previous version
 argocd app set <appname> #Set the application’s configuration.
 argocd app delete <appname> #Delete an Argo CD application.
 ```
-
-
-
-
-
